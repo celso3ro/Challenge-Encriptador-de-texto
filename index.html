@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <Head>
+        <meta charset= "UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Encriptador de textos</title> 
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=New+Amsterdam&display=swap" rel="stylesheet">
+    </Head>
+
+    <body>
+        <header>
+            <section> 
+                <img class="logo-alura"  src="/Imagenes/bandera.png" alt="Bandera de Panama">
+            </section>
+            
+            <h1>Encriptador de texto</h1>
+        </header>
+
+        <main>
+            <section >
+                <textarea class="ingreso-texto" name="ingreso" id="ingreso" cols="30" rows="8" placeholder="Ingrese el texto a encriptar"></textarea>
+                <div class="botones">
+                    <button class="botones__style" onclick="botonEnc()">Encriptar</button>
+                    <button class="botones__style" onclick="botonDes()">Desencriptar</button>
+                </div>
+            </section>
+            <section >
+                <textarea class="salida-texto" name="salida-texto" id="salida-texto" cols="30" rows="8"></textarea>
+                <div class="botones">
+                    <button class="botones__style" onclick="copiarTexto()">Copiar</button>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p class="desarrollo">Desarrollado por Celso Castillo Castillo en La Chorrera, Panama</p> 
+        </footer>
+
+ <script src="/app.js"></script>
+    </body>
+   
+</html>

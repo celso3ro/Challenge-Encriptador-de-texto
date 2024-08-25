@@ -1,0 +1,113 @@
+:root {
+    --color-destacado: #ffffff;
+    --color-boton: #0095eb;
+    --color-fondo: #c8fff6;
+    --color-cuadro: #ffe7dfd0;
+    --color-letras1: #000000;
+    --color-letras2: #000000;
+    
+}
+
+* {
+    background: var(--color-fondo);
+    
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    font-family: "Jersey 10", sans-serif;
+  
+  font-style: normal;
+}
+
+h1{
+    text-align: center;
+    margin-top: -3%;
+    font-size: 38px;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.logo-alura{
+    padding-top: 10px;
+    width: 10%;
+    
+}
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 5%; 
+    
+}
+
+.ingreso-texto{
+    display: flex;
+    padding: 0%;
+    border: none;
+    border-radius: 24px;
+    color: var(--color-letras1);
+    background-color: var(--color-destacado);
+    text-align: center;
+    font-family: "New Amsterdam", sans-serif;
+
+}
+::placeholder {color: var(--color-letras1);}
+.ingreso-texto:focus {
+    outline: none;
+}
+
+.salida-texto{
+    display: flex;
+    margin-left: 50px;
+    border: none;
+    border-radius: 24px;
+    background-image: url("/Imagenes/Muñeco.jpeg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    font-family: "New Amsterdam", sans-serif;
+    background-color: var(--color-destacado);
+    
+}
+::placeholder {color: var(--color-letras1);}
+.salida-texto:focus {
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 2%;
+    gap: 1rem;
+}
+
+.botones__style{
+    display: flex;
+    width: 50%;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: var(--color-boton);
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    font-family: "New Amsterdam", sans-serif;
+
+
+}
+
+footer{
+    padding: 15px;
+    text-align: center;
+}
+
+.desarrollo{
+    background-color: none ;
+    color: var(--color-boton);
+    font-size: 20px;
+    font-style: oblique;
+    margin-top: 0%;
+    font-family: "New Amsterdam", sans-serif;   
+}
+
+
